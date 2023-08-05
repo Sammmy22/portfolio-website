@@ -2,9 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/s.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Sambhav Choudhary - Home</title>
     <!-- Font Awesome -->
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
@@ -20,6 +20,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!--Main Navigation-->
@@ -54,9 +55,10 @@
 
         /* Height for devices larger than 576px */
         @media (min-width: 992px) {
-          #introCarousel {
-            margin-top: -58.59px;
-          }
+          /* #introCarousel {
+            /* margin-top: -58.59px; */
+          /* } 
+          */
           #introCarousel,
           .carousel-inner,
           .carousel-item,
@@ -65,24 +67,20 @@
           }
         }
 
-        .navbar .nav-link {
+        /* .navbar .nav-link {
           color: #fff !important;
-        }
+        } */
       </style>
 
       <!-- Navbar -->
       <nav
-        class="navbar navbar-expand-lg fixed-top navbar-scroll navbar-dark"
-        style="z-index: 2000"
+        class="navbar navbar-expand-lg navbar-dark bg-light gradient-custom"
+        id="navbar"
       >
         <div class="container-fluid">
           <!-- Navbar brand -->
-          <a
-            class="navbar-brand nav-link"
-            target="_blank"
-            href="https://mdbootstrap.com/docs/standard/"
-          >
-            <strong>MDB</strong>
+          <a class="navbar-brand nav-link" target="_blank" href="/">
+            <img src="/s.svg" height="50" />
           </a>
           <button
             class="navbar-toggler"
@@ -93,43 +91,39 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <i class="fas fa-bars"></i>
+            <i class="fas fa-bars" id="bars"></i>
           </button>
           <div class="collapse navbar-collapse" id="navbarExample01">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item active">
-                <a class="nav-link" aria-current="page" href="#intro">Home</a>
+                <a class="nav-link" aria-current="page" href="/">Home</a>
               </li>
               <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="https://www.youtube.com/channel/UC5CF7mLQZhvx8O5GODZAhdA"
-                  rel="nofollow"
-                  target="_blank"
-                  >Learn Bootstrap 5</a
+                <a class="nav-link" href="/about-me.html" rel="nofollow"
+                  >About Me</a
                 >
               </li>
               <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="https://mdbootstrap.com/docs/standard/"
-                  target="_blank"
-                  >Download MDB UI KIT</a
-                >
+                <a class="nav-link" href="/contact-me.html">Contact Me</a>
               </li>
             </ul>
 
             <ul class="navbar-nav d-flex flex-row">
               <!-- Icons -->
               <li class="nav-item me-3 me-lg-0">
-                <a class="nav-link" href="#" rel="nofollow" target="_blank">
+                <a
+                  class="nav-link"
+                  href="https://www.instagram.com/sambhav.ts/"
+                  rel="nofollow"
+                  target="_blank"
+                >
                   <i class="fab fa-instagram"></i>
                 </a>
               </li>
               <li class="nav-item me-3 me-lg-0">
                 <a
                   class="nav-link"
-                  href="https://www.facebook.com/mdbootstrap"
+                  href="https://www.facebook.com/sambhav.choudhary.96"
                   rel="nofollow"
                   target="_blank"
                 >
@@ -139,7 +133,7 @@
               <li class="nav-item me-3 me-lg-0">
                 <a
                   class="nav-link"
-                  href="https://twitter.com/MDBootstrap"
+                  href="https://twitter.com/__deadpooool?t=G6_jLFFLDK_doF6GB0fcig&s=09"
                   rel="nofollow"
                   target="_blank"
                 >
@@ -149,7 +143,7 @@
               <li class="nav-item me-3 me-lg-0">
                 <a
                   class="nav-link"
-                  href="https://github.com/mdbootstrap/mdb-ui-kit"
+                  href="https://github.com/Sammmy22"
                   rel="nofollow"
                   target="_blank"
                 >
@@ -394,20 +388,11 @@
             </div>
           </div>
         </section>
-        <!--Section: Content-->
 
         <hr class="my-5" />
-
-        <!--Section: Content-->
-
-        <!--Section: Content-->
       </div>
     </main>
     <!--Main layout-->
-
-    <!--Footer-->
-
-    <!--Footer-->
 
     <script type="module" src="/main.js"></script>
     <!-- MDB -->
