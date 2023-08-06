@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/s.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sambhav Choudhary - About</title>
+    <title>Sambhav Choudhary - Contact</title>
     <!-- Font Awesome -->
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
@@ -21,6 +21,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="css/style.css" /> -->
   </head>
 
   <body>
@@ -36,7 +37,6 @@
         <button
           class="navbar-toggler"
           type="button"
-          id="bar-btn"
           data-mdb-toggle="collapse"
           data-mdb-target="#navbarExample01"
           aria-controls="navbarExample01"
@@ -50,13 +50,13 @@
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="/">Home</a>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="/about-me.html" rel="nofollow"
                 >About Me</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/contact-me.html">Contact Me</a>
+              <a class="nav-link active" href="/contact-me.html">Contact Me</a>
             </li>
           </ul>
 
@@ -102,46 +102,158 @@
                 <i class="fab fa-github"></i>
               </a>
             </li>
+            <li class="nav-item me-3 me-lg-0">
+              <a
+                class="nav-link"
+                href="https://github.com/Sammmy22"
+                rel="nofollow"
+                target="_blank"
+              >
+                <i class="fab fa-brands fa-linkedin"></i>
+              </a>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
     <!-- Navbar -->
-    <div class="container col-xxl-8 px-4 py-5">
-      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <div class="col-10 col-sm-8 col-lg-6">
-          <img
-            src="https://images.unsplash.com/photo-1530435460869-d13625c69bbf?crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=MnwzNzg0fDB8MXxzZWFyY2h8MTB8fHdlYnNpdGV8ZW58MHwwfHx8MTYyMTQ0NjkyNg&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=1080&amp;h=768"
-            class="d-block mx-lg-auto img-fluid"
-            alt=""
-            loading="lazy"
-          />
-        </div>
-        <div class="col-lg-6">
-          <div class="lc-block mb-3">
-            <div editable="rich">
-              <h2 class="fw-bold display-5">Possible is in the name!</h2>
+    <section class="ftco-section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-10">
+            <div class="wrapper">
+              <div class="row no-gutters">
+                <div class="col-md-6">
+                  <div class="contact-wrap w-100 p-lg-5 p-4">
+                    <h3 class="mb-4">Send me a message</h3>
+                    <form
+                      action="mailto:sambhavc225@gmail.com"
+                      method="post"
+                      id="contactForm"
+                      class="contactForm"
+                    >
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <input
+                              type="text"
+                              class="form-control"
+                              name="name"
+                              id="name"
+                              placeholder="Name"
+                              required
+                            />
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <input
+                              type="email"
+                              class="form-control"
+                              name="email"
+                              id="email"
+                              placeholder="Email"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <input
+                              type="text"
+                              class="form-control"
+                              name="subject"
+                              id="subject"
+                              placeholder="Subject"
+                              required
+                            />
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <textarea
+                              name="message"
+                              class="form-control"
+                              id="message"
+                              cols="30"
+                              rows="6"
+                              placeholder="Message"
+                            ></textarea>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <input
+                              type="submit"
+                              value="Send Message"
+                              class="btn btn-primary mt-1"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="col-md-6 d-flex align-items-stretch">
+                  <div class="info-wrap w-100 p-lg-5 p-4 img">
+                    <h3>Contact Me</h3>
+                    <p class="mb-4">
+                      Social Media links on top right rest details are here
+                    </p>
+                    <div class="dbox w-100 d-flex align-items-center">
+                      <div
+                        class="icon d-flex align-items-center justify-content-center"
+                      >
+                        <span class="fa fa-solid fa-location-dot"></span>
+                      </div>
+                      <div class="text pl-3">
+                        <p>
+                          <span>Location:</span>
+                          Mumbai, India
+                        </p>
+                      </div>
+                    </div>
+                    <div class="dbox w-100 d-flex align-items-center">
+                      <div
+                        class="icon d-flex align-items-center justify-content-center"
+                      >
+                        <span class="fa fa-solid fa-phone"></span>
+                      </div>
+                      <div class="text pl-3">
+                        <p>
+                          <span>Phone:</span>
+                          +91 9372660546
+                        </p>
+                      </div>
+                    </div>
+                    <div class="dbox w-100 d-flex align-items-center">
+                      <div
+                        class="icon d-flex align-items-center justify-content-center"
+                      >
+                        <span class="fa fa-solid fa-envelope"></span>
+                      </div>
+                      <div class="text pl-3">
+                        <p>
+                          <span>Email:</span>
+                          sambhavc225@gmail.com
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-
-          <div class="lc-block mb-3">
-            <div editable="rich">
-              <p class="lead">
-                Quickly design and customize responsive mobile-first sites with
-                Bootstrap, the world’s most popular front-end open source
-                toolkit, featuring Sass variables and mixins, responsive grid
-                system, extensive prebuilt components, and powerful JavaScript
-                plugins.
-              </p>
-            </div>
-          </div>
-
-          <div
-            class="lc-block d-grid gap-2 d-md-flex justify-content-md-start"
-          ></div>
         </div>
       </div>
-    </div>
+    </section>
+
+    <footer
+      class="bg-light gradient-custom text-light text-center text-lg-start mt-2"
+    >
+      <!-- Copyright -->
+      <div class="text-center p-3">© 2023 Copyright: Sambhav Choudhary</div>
+      <!-- Copyright -->
+    </footer>
     <script
       defer
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
