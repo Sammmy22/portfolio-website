@@ -119,7 +119,7 @@ a {
   -webkit-transition: 0.3s all ease;
   -o-transition: 0.3s all ease;
   transition: 0.3s all ease;
-  color: #d62196;
+  color: rgb(232, 178, 0);
 }
 a:hover,
 a:focus {
