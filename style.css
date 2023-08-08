@@ -369,3 +369,16 @@ textarea.form-control {
   font-weight: 500;
   color: #28a745;
 }
+
+#qr-img {
+  height: 197.16px;
+  margin-top: 57.62px;
+}
+
+.pro-pic {
+  min-height: 200px;
+}
+
+.card {
+  min-height: 483px;
+}
