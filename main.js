@@ -1,5 +1,4 @@
-const scriptURL =
-  "https://script.google.com/macros/s/AKfycbwY96I_SFXuOmUjkfbw3FNTZhAbkLWw2LXxj_-zgDkbwTy_NCsCApNa71IlLceJFq_D/exec";
+const scriptURL = "Google Script URL";
 const form = document.forms["contactForm"];
 
 form.addEventListener("submit", (e) => {
