@@ -1,4 +1,4 @@
-const scriptURL = "Google Script URL";
+const scriptURL = "YOUR SCRIPT URL";
 const form = document.forms["contactForm"];
 
 form.addEventListener("submit", (e) => {
