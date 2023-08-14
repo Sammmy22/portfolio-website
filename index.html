@@ -2,9 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="public/s.svg" />
+    <link rel="icon" type="image/svg+xml" href="s.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sambhav Choudhary - Home</title>
+    <meta
+      name="description"
+      content="Portfolio website of Sambhav Choudhary, every information about Sambhav Choudhary can be found here."
+    />
+    <title>Sambhav Choudhary</title>
     <!-- Font Awesome -->
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -21,10 +25,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <!-- <link rel="stylesheet" href="css/style.css" /> -->
   </head>
   <body>
-    <!--Main Navigation-->
     <header>
       <style>
         /* Carousel styling */
@@ -36,19 +38,19 @@
         }
 
         .carousel-item:nth-child(1) {
-          background-image: url("public/carousel-images/c-1.jpg");
+          background-image: url("carousel-images/c-1.jpg");
           background-repeat: no-repeat;
           background-size: cover;
           background-position: center center;
         }
         .carousel-item:nth-child(2) {
-          background-image: url("public/carousel-images/c-2.jpg");
+          background-image: url("carousel-images/c-2.jpg");
           background-repeat: no-repeat;
           background-size: cover;
           background-position: center center;
         }
         .carousel-item:nth-child(3) {
-          background-image: url("public/carousel-images/c-3.jpg");
+          background-image: url("carousel-images/c-3.jpg");
           background-repeat: no-repeat;
           background-size: cover;
           background-position: center center;
@@ -56,10 +58,6 @@
 
         /* Height for devices larger than 576px */
         @media (min-width: 992px) {
-          /* #introCarousel {
-            /* margin-top: -58.59px; */
-          /* } 
-          */
           #introCarousel,
           .carousel-inner,
           .carousel-item,
@@ -67,10 +65,6 @@
             height: 50vh;
           }
         }
-
-        /* .navbar .nav-link {
-          color: #fff !important;
-        } */
       </style>
 
       <!-- Navbar -->
@@ -80,8 +74,8 @@
       >
         <div class="container-fluid">
           <!-- Navbar brand -->
-          <a class="navbar-brand nav-link" target="_blank" href="/">
-            <img src="public/s.svg" height="50" />
+          <a class="navbar-brand nav-link">
+            <img src="s.svg" height="50" />
           </a>
           <button
             class="navbar-toggler"
@@ -97,15 +91,17 @@
           <div class="collapse navbar-collapse" id="navbarExample01">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/">Home</a>
+                <a class="nav-link" href="/" rel="nofollow">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/projects.html" rel="nofollow"
+                <a class="nav-link" href="#projects-wrapper" rel="nofollow"
                   >Projects</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/contact-me.html">Contact Me</a>
+                <a class="nav-link" href="#contact-wrapper" rel="nofollow"
+                  >Contact Me</a
+                >
               </li>
             </ul>
 
@@ -263,20 +259,18 @@
       </div>
       <!-- Carousel wrapper -->
     </header>
-    <!--Main Navigation-->
+
     <!--Main layout-->
     <main class="mt-5">
       <!--Section: Content-->
       <section>
         <div class="container col-xxl-8 px-4 py-2">
           <div class="row flex-lg-row-reverse align-items-center g-5 py-4">
-            <div class="col-10 col-sm-8 col-lg-6">
+            <div class="col-12 col-md-6">
               <img
-                src="public/images/sam.jpg"
-                class="d-block mx-lg-auto img-fluid"
-                alt=""
-                width="380"
-                height="768"
+                src="images/sam.jpg"
+                class="mx-md-auto mx-sm-auto img-fluid rounded"
+                alt="Image of Sambhav Choudhary"
                 loading="lazy"
               />
             </div>
@@ -303,9 +297,531 @@
           </div>
         </div>
       </section>
-      <!--Section: Content-->
     </main>
-    <!--Main layout-->
+    <div class="container">
+      <hr class="my-5" />
+    </div>
+    <section id="projects-wrapper">
+      <div class="container">
+        <h1 class="display-3 text-center">Projects</h1>
+        <div class="container">
+          <hr class="hr hr-blurry my-5" />
+        </div>
+        <section class="text-center">
+          <h2 class="display-6 text-center mt-2 py-2">Major Projects</h2>
+          <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4">
+              <div class="card">
+                <div
+                  class="bg-image hover-overlay ripple"
+                  data-mdb-ripple-color="light"
+                >
+                  <img
+                    src="images/pic1.jpg"
+                    alt="Nirmaan Hackathon '23"
+                    class="img-fluid pro-pic"
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Nirmaan Hackathon '23</h5>
+                  <p class="card-text">
+                    A platform for student and faculty interactions with each
+                    other by means of a full stack web app. Made with PHP and
+                    MySQL.
+                  </p>
+                  <a
+                    href="https://github.com/DhruvAthaide/WebWizards"
+                    target="_blank"
+                    rel="nofollow"
+                    class="btn btn-dark"
+                    >Code</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card">
+                <div
+                  class="bg-image hover-overlay ripple"
+                  data-mdb-ripple-color="light"
+                >
+                  <img
+                    src="images/pic2.jpg"
+                    alt="TechHack Hackathon '23"
+                    class="img-fluid pro-pic"
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">TechHack Hackathon '23</h5>
+                  <p class="card-text">
+                    Another student faculty interaction web app with more
+                    features and completed within 24hr. Made with ReactJS and
+                    Firebase.
+                  </p>
+                  <a
+                    href="https://github.com/Sammmy22/tech-hack-project"
+                    rel="nofollow"
+                    target="_blank"
+                    class="btn btn-dark"
+                    >Code</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card">
+                <div
+                  class="bg-image hover-overlay ripple"
+                  data-mdb-ripple-color="light"
+                >
+                  <img
+                    src="images/pic3.jpg"
+                    alt="Fund Me Contract"
+                    class="img-fluid pro-pic"
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Fund Me Contract</h5>
+                  <p class="card-text">
+                    A Smart Contract written in Solidity using the Foundry
+                    framework for getting funds in your wallet with many
+                    features.
+                  </p>
+                  <a
+                    href="https://github.com/Sammmy22/foundry-fund-me"
+                    rel="nofollow"
+                    target="_blank"
+                    class="btn btn-dark"
+                    >Code</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="container">
+        <hr class="hr hr-blurry my-3" />
+      </div>
+      <div class="container">
+        <section class="text-center">
+          <h1 class="display-6 text-center mt-2 py-2">Small Projects</h1>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card">
+                <div
+                  class="bg-image hover-overlay ripple"
+                  data-mdb-ripple-color="light"
+                >
+                  <img
+                    src="images/pic4.jpg"
+                    alt="ToDo App"
+                    class="img-fluid pro-pic"
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">ToDo App</h5>
+                  <p class="card-text">
+                    A ToDo App made with ReactJS, implementing basic features
+                    for tasks by means of local storage.
+                  </p>
+                  <a
+                    href="https://github.com/Sammmy22/TODO-app-react"
+                    target="_blank"
+                    rel="nofollow"
+                    class="btn btn-dark"
+                    >Code</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card">
+                <div
+                  class="bg-image hover-overlay ripple"
+                  data-mdb-ripple-color="light"
+                >
+                  <img
+                    src="images/qr.png"
+                    class="img-fluid pro-pic"
+                    alt="QR Code Generator"
+                    id="qr-img"
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">QR Code Generator</h5>
+                  <p class="card-text">
+                    A basic QR Code Generator implemented by Cloudfare's API and
+                    has download functionality.
+                  </p>
+                  <a
+                    href="https://github.com/Sammmy22/QR-Code-generator"
+                    rel="nofollow"
+                    target="_blank"
+                    class="btn btn-dark"
+                    >Code</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card">
+                <div
+                  class="bg-image hover-overlay ripple"
+                  data-mdb-ripple-color="light"
+                >
+                  <img
+                    src="images/pic6.png"
+                    alt="Password Manager"
+                    class="img-fluid pro-pic"
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Password Manager</h5>
+                  <p class="card-text">
+                    A Password Manager made with Python using the TKinter
+                    library. Has functions like store, search and generate
+                    password
+                  </p>
+                  <a
+                    href="https://github.com/Sammmy22/password-manager"
+                    rel="nofollow"
+                    target="_blank"
+                    class="btn btn-dark"
+                    >Code</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card">
+                <div
+                  class="bg-image hover-overlay ripple"
+                  data-mdb-ripple-color="light"
+                >
+                  <img
+                    src="images/pic7.jpg"
+                    alt="Weather App"
+                    class="img-fluid pro-pic"
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Weather App</h5>
+                  <p class="card-text">
+                    Almost everyone's first API project the weather app. Made
+                    with the open weather API
+                  </p>
+                  <a
+                    href="https://github.com/Sammmy22/Weather-app"
+                    rel="nofollow"
+                    target="_blank"
+                    class="btn btn-dark"
+                    >Code</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card">
+                <div
+                  class="bg-image hover-overlay ripple"
+                  data-mdb-ripple-color="light"
+                >
+                  <img
+                    src="images/pic8.jpeg"
+                    alt="Dice Roll"
+                    class="img-fluid pro-pic"
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Dice Roll</h5>
+                  <p class="card-text">
+                    A basic simple Dice Roll app made with Flutter this is my
+                    first Flutter project
+                  </p>
+                  <a
+                    href="https://github.com/Sammmy22/roll_dice"
+                    rel="nofollow"
+                    target="_blank"
+                    class="btn btn-dark"
+                    >Code</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card">
+                <div
+                  class="bg-image hover-overlay ripple"
+                  data-mdb-ripple-color="light"
+                >
+                  <img
+                    src="images/pic9.png"
+                    alt="Snake Game"
+                    class="img-fluid pro-pic"
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Snake Game</h5>
+                  <p class="card-text">
+                    Another almost everyone's first Turtle project the classic
+                    Snake Game
+                  </p>
+                  <a
+                    href="https://github.com/Sammmy22/snake-game"
+                    rel="nofollow"
+                    target="_blank"
+                    class="btn btn-dark"
+                    >Code</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="container">
+        <hr class="hr hr-blurry my-3" />
+      </div>
+      <!-- Section: Tech Stack -->
+      <section class="container mb-4">
+        <h1 class="display-6 text-center my-2">Tech Stack</h1>
+        <div class="d-flex justify-content-around py-2 mx-5">
+          <a
+            href="https://isocpp.org/"
+            target="_blank"
+            rel="nofollow"
+            class="logo-circle logo-circle-js d-flex align-items-center justify-content-center me-2 hover-shadow"
+          >
+            <img
+              width="32"
+              height="32"
+              alt="C++"
+              src="stack-icons/c-plus-plus.svg"
+            />
+          </a>
+          <a
+            href="https://www.python.org/"
+            target="_blank"
+            rel="nofollow"
+            class="logo-circle logo-circle-python d-flex align-items-center justify-content-center me-2 hover-shadow"
+          >
+            <img
+              width="32"
+              height="32"
+              alt="Python"
+              src="stack-icons/python.svg"
+            />
+          </a>
+          <a
+            href="https://nodejs.org/en"
+            target="_blank"
+            rel="nofollow"
+            class="logo-circle logo-circle-js d-flex align-items-center justify-content-center me-2 hover-shadow"
+          >
+            <img
+              width="32"
+              height="32"
+              alt="NodeJS"
+              src="stack-icons/nodejs.svg"
+            />
+          </a>
+          <a
+            href="https://flutter.dev/"
+            target="_blank"
+            rel="nofollow"
+            class="logo-circle logo-circle-vue d-flex align-items-center justify-content-center me-2 hover-shadow"
+          >
+            <img
+              width="32"
+              height="32"
+              alt="Flutter"
+              src="stack-icons/flutter.svg"
+            />
+          </a>
+          <a
+            href="https://react.dev/"
+            target="_blank"
+            rel="nofollow"
+            class="logo-circle logo-circle-react d-flex align-items-center justify-content-center me-2 hover-shadow"
+          >
+            <img
+              width="32"
+              height="32"
+              alt="ReactJS"
+              src="stack-icons/react.svg"
+            />
+          </a>
+          <a
+            href="https://getbootstrap.com/"
+            target="_blank"
+            rel="nofollow"
+            class="logo-circle logo-circle-bootstrap d-flex align-items-center justify-content-center me-2 hover-shadow"
+          >
+            <img
+              width="32"
+              height="32"
+              alt="Bootstrap"
+              src="stack-icons/bootstrap.svg"
+            />
+          </a>
+          <a
+            href="https://soliditylang.org/"
+            target="_blank"
+            rel="nofollow"
+            class="logo-circle logo-circle-bootstrap d-flex align-items-center justify-content-center me-2 hover-shadow"
+          >
+            <img
+              width="32"
+              height="32"
+              alt="Solidity"
+              src="stack-icons/sol.svg"
+            />
+          </a>
+        </div>
+      </section>
+    </section>
+    <!-- Section: Contact -->
+    <div class="container">
+      <hr class="my-5" />
+    </div>
+    <div id="contact-wrapper">
+      <h1 class="display-3 text-center">Contact</h1>
+      <section class="ftco-section">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-10">
+              <div class="wrapper">
+                <div class="row no-gutters">
+                  <div class="col-md-6 d-flex align-items-stretch">
+                    <div class="info-wrap w-100 p-lg-5 p-4 img">
+                      <h3>Contact Me</h3>
+                      <p class="mb-4">
+                        Social Media links in the navbar rest info here
+                      </p>
+                      <div class="dbox w-100 d-flex align-items-center">
+                        <div
+                          class="icon d-flex align-items-center justify-content-center"
+                        >
+                          <span class="fa fa-solid fa-location-dot"></span>
+                        </div>
+                        <div class="text pl-3">
+                          <p>
+                            <span>Location:</span>
+                            Mumbai, India
+                          </p>
+                        </div>
+                      </div>
+                      <div class="dbox w-100 d-flex align-items-center">
+                        <div
+                          class="icon d-flex align-items-center justify-content-center"
+                        >
+                          <span class="fa fa-solid fa-phone"></span>
+                        </div>
+                        <div class="text pl-3">
+                          <p>
+                            <span>Phone:</span>
+                            +91 9372660546
+                          </p>
+                        </div>
+                      </div>
+                      <div class="dbox w-100 d-flex align-items-center">
+                        <div
+                          class="icon d-flex align-items-center justify-content-center"
+                        >
+                          <span class="fa fa-solid fa-envelope"></span>
+                        </div>
+                        <div class="text pl-3">
+                          <p>
+                            <span>Email:</span>
+                            sambhavc225@gmail.com
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="contact-wrap w-100 p-lg-5 p-4">
+                      <h3 class="mb-4">Send me a message</h3>
+                      <form
+                        id="contactForm"
+                        method="post"
+                        action="https://script.google.com/macros/s/AKfycbwY96I_SFXuOmUjkfbw3FNTZhAbkLWw2LXxj_-zgDkbwTy_NCsCApNa71IlLceJFq_D/exec"
+                        class="contactForm"
+                        name="contactForm"
+                      >
+                        <div class="row">
+                          <div class="col-md-12">
+                            <div class="form-group">
+                              <input
+                                type="text"
+                                class="form-control"
+                                name="name"
+                                id="name"
+                                placeholder="Name"
+                                required
+                              />
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <div class="form-group">
+                              <input
+                                type="email"
+                                class="form-control"
+                                name="email"
+                                id="email"
+                                placeholder="Email"
+                              />
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <div class="form-group">
+                              <input
+                                type="text"
+                                class="form-control"
+                                name="subject"
+                                id="subject"
+                                placeholder="Subject"
+                                required
+                              />
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <div class="form-group">
+                              <textarea
+                                name="message"
+                                class="form-control"
+                                id="message"
+                                cols="30"
+                                rows="6"
+                                placeholder="Message"
+                              ></textarea>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <div class="form-group">
+                              <input
+                                type="submit"
+                                value="Send Message"
+                                class="btn btn-primary mt-1"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
     <footer
       class="bg-light gradient-custom text-light text-center text-lg-start mt-2"
     >
@@ -313,11 +829,18 @@
       <div class="text-center p-3">© 2023 Copyright: Sambhav Choudhary</div>
       <!-- Copyright -->
     </footer>
-
+    <button
+      type="button"
+      class="btn bg-light gradient-custom btn-dark"
+      id="btn-back-to-top"
+    >
+      <i class="fa-solid fa-arrow-up fa-xl"></i>
+    </button>
     <!-- MDB -->
     <script
       type="text/javascript"
       src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js"
     ></script>
+    <script type="module" src="main.js"></script>
   </body>
 </html>
